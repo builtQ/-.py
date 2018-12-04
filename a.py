@@ -1,4 +1,10 @@
 #统计文件行数
+from chardet import detect（charde是导入的包：CMD中导入pip install charde）
+count,blanks=0,0
+with open("a.txt",'rb') as fp:
+	detect(fp.read())
+
+
 count,blanks=0,0
 with open ("a.txt") as fp:
 	while True:
