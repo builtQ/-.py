@@ -20,3 +20,5 @@ with open ("a.txt") as fp:
 		#print(len(line.strip()))
 		count+=1
 print(count,blanks)
+
+print(isfile(r"C:\a.txt"))
