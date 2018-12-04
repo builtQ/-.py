@@ -20,5 +20,5 @@ with open ("a.txt") as fp:
 		#print(len(line.strip()))
 		count+=1
 print(count,blanks)
-
+#判断文件路径是否正确。isfile是原生字符串（r）
 print(isfile(r"C:\a.txt"))
