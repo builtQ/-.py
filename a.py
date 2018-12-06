@@ -68,7 +68,7 @@ for root,dirs,files in os.walk(root_path):
 print(dir_count-1,"Folders")
 print(file_count,"Files")
 
-#以上所有综合
+#以上所有综合（结果以文件形式输出）
 import os
 from chardet import detect
 def get_file_info(file_path):
